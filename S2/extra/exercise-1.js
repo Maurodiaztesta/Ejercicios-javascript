@@ -7,5 +7,11 @@ const movies = [
 
 let cate = [];
 for (const peli of movies) {
-    
+    for (const categoria of peli.categories) {
+        if (!cate.includes(categoria)) {
+            cate.push(categoria);
+        } 
+    }
 }
+console.log(cate);
+

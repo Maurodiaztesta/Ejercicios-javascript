@@ -7,10 +7,11 @@ const placesToTravel = [
   { id: 59, name: "Madagascar" },
 ];
 
+const array = [];
 for (let index = 0; index < placesToTravel.length; index++) {
     const element = placesToTravel[index];
-    if ((element.id == 11) || (element.id == 40)) {
-        placesToTravel.splice(index, 1);
+    if ((element.id !== 11) && (element.id !== 40)) {
+        array.push(element);
     }
 }
-console.log(placesToTravel);
+console.log(array);
