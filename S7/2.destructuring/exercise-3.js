@@ -3,8 +3,6 @@ const animalFunction = () => {
 };
 
 
-let animal = animalFunction();
-
-const {name, race} = animal;
-console.log(name);
+const {name, race} = animalFunction();
+console.log(name,);
 console.log(race);

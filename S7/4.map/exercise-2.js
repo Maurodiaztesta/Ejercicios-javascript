@@ -10,10 +10,9 @@ const users = [
 const nombresCambio = users.map((nombre) => {
     if (nombre.name.startsWith("A")) {
         nombre.name = "Anacleto";
-        return nombre.name;
-    } else{
-        return nombre.name;
     }
+        return nombre.name;
+
 });
 console.log(nombresCambio);
 

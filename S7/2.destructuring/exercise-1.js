@@ -10,9 +10,3 @@ console.log(gender);
 console.log(year);
 
 
-// let {title} = game;
-// console.log(title);
-// let {gender} = game;
-// console.log(gender);
-// let {year} = game;
-// console.log(year);
